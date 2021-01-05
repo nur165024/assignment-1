@@ -73,4 +73,27 @@ h1,h2,h3,h4,h5,h5,ul,ol,p{
     font-family: 'Yellowtail', cursive;
     font-size: 20px;
     font-weight: 400;
+
+}
+#heading_tag{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+#heading_tag h1{
+    position: absolute;
+    top: 50%;
+}
+#heading_tag h1::before{
+    position: absolute;
+    content: '<h1>';
+    top: 0;
+    left: 10px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #515152;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+    font-weight: 400;
 }
