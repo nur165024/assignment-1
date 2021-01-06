@@ -18,7 +18,6 @@ section{
     width: 40%;
     float: left;
     padding-left: 5%;
-    margin-left: 5%;
 }
 .col-4{
     width: 28%;
@@ -28,8 +27,13 @@ section{
 }
 /* nav bar part */
 #nav_bar{
+    position: fixed;
     width: 100%;
-    height: 40px;
+    height: 60px;
+    top: 0px;
+    margin-bottom: 15px;
+    line-height: 0;
+    background: #fff;
 }
 #nav_bar ul{
     position: absolute;
@@ -73,7 +77,7 @@ section{
     color: #f68266;
 }
 #banner_part{
-    margin: 40px;
+    margin: 70px 30px;
 }
 .col-6 a{
     text-decoration: none;
@@ -226,4 +230,56 @@ section{
 .stay_connected a img{
     margin-top: 10px;
     width: 60px;
+}
+#contact_me_part{
+    padding: 40px 0;   
+}
+.heading_contact{
+    text-align: center;
+    padding: 40px 0;
+}
+.heading_contact h2{
+    font-size: 38px;
+    font-weight:700;
+    color: #363857;
+}
+.heading_contact h2 span{
+    color: #f68266;
+}
+.contact_me p{
+    color: #696871;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.contact_me #name{
+    width: 45%;
+    height: 27px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.contact_me #email{
+    width: 46%;
+    height: 25px;
+}
+.contact_me #subject{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.contact_me #message{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact_me button{
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid #f68266;
+    border-radius: 5px;
+    background-image: linear-gradient(to left bottom, #f68266, #f8766e, #f86a78, #f66084, #f05792);
+    transition: all 0.4s ease-out;
+}
+.contact_me button:hover{
+    background-image: linear-gradient(to right top, #f68266, #f8766e, #f86a78, #f66084, #f05792);
 }
