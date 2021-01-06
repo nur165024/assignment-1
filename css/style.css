@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+ul,ol{
+    list-style-type: none;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +25,31 @@ section{
     float: left;
     padding-left: 2%;
     margin-left: 2%;
+}
+/* nav bar part */
+#nav_bar{
+    width: 100%;
+    height: 40px;
+}
+#nav_bar ul{
+    position: absolute;
+    right: 10%;
+    top: 20px;    
+}
+#nav_bar ul li{
+    float: left;
+    padding: 10px 20px;
+}
+#nav_bar ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #696871;
+    float: left;
+    text-decoration: none;
+    transition: all .4s ease-out;
+}
+#nav_bar ul li a:hover{
+    color: #f68266;
 }
 /* banner part */
 .heading_text{
@@ -176,4 +204,26 @@ section{
 }
 .work_inquiry .work_inquiry_2 a:hover{
     background-image: linear-gradient(to right top, #f68266, #f8766e, #f86a78, #f66084, #f05792);
+}
+#stay_connected_part{
+    height: 200px;
+    margin: 40px 0;
+}
+.stay_connected{
+    text-align: center;
+}
+.stay_connected h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.stay_connected h4{
+    color: #696871;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.stay_connected a img{
+    margin-top: 10px;
+    width: 60px;
 }
