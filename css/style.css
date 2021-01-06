@@ -7,11 +7,21 @@ body{
 section{
     height: 500px;
 }
+.col-12{
+    width: 90%;
+    padding-left: 5%;
+}
 .col-6{
     width: 40%;
     float: left;
     padding-left: 5%;
     margin-left: 5%;
+}
+.col-4{
+    width: 28%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 2%;
 }
 /* banner part */
 .heading_text{
@@ -43,6 +53,7 @@ section{
     padding: 10px 20px;
     margin-top: 20px;
     color: #fff;
+    border-radius: 5px;
     background-image: linear-gradient(to left bottom, #f68266, #f8766e, #f86a78, #f66084, #f05792);
     transition: all 0.4s ease-out;
 }
@@ -72,3 +83,97 @@ section{
     margin: 20px 0;
 }
 /* work exprience */
+#work_project_part{
+    background-color: #f7f9fb;
+}
+.work_heading{
+    text-align: center;
+    padding: 40px 0;
+}
+.work_heading h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #363857;
+    text-transform: uppercase;
+}
+.work_heading h1 span{
+    color: #f68266;
+}
+/* work project */
+#work_project_part{
+    margin: 40px 0;
+    height: 600px !important;
+}
+.website_link{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.98); 
+    box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.98);
+}
+.website_link img{
+    width: 100%;
+    border-radius: 10px;
+}
+.website_link a{
+    text-decoration: none;
+    color: #000000;
+}
+.website_link h2{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 15px 0;
+    transition: all .4s ease-out;
+}
+.website_link h2:hover{
+    color: #f68266;
+}
+.website_link p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #858585;
+}
+/* work inquiry */
+#work_inquiry_part{
+    margin: 40px 0;
+    height: 200px;
+}
+.work_inquiry{
+    width: 70%;
+    height: 180px;
+    line-height: 180px;
+    color: #fff;
+    background-image: linear-gradient(to right top, #6064df, #5d61dc, #5a5eda, #575cd7, #5459d5);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 30px;
+}
+.work_inquiry .work_inquiry_1{
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+}
+.work_inquiry .work_inquiry_1 h2{
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.work_inquiry .work_inquiry_2{
+    width: 45%; 
+    height: 100%;
+    float: left;
+    text-align: right;
+}
+.work_inquiry .work_inquiry_2 a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to left bottom, #f68266, #f8766e, #f86a78, #f66084, #f05792);
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+}
+.work_inquiry .work_inquiry_2 a:hover{
+    background-image: linear-gradient(to right top, #f68266, #f8766e, #f86a78, #f66084, #f05792);
+}
