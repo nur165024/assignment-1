@@ -2,98 +2,73 @@
     margin: 0;
 }
 body{
-    background: #1d1d1d;
-    overflow: hidden;
     font-family: 'Roboto', sans-serif;
-    /* font-family: 'Yellowtail', cursive; */
 }
-ul,ol{
-    list-style-type: none;
-}
-h1,h2,h3,h4,h5,h5,ul,ol,p{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    position: relative;
-    width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-}
-.row{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.col-12{
-    width: 90%;
-    padding: 10px;
-    margin: 10px;
-}
-.col-6{
-    width: 45%;
-    float: left;
-    padding: 10px;
-    margin: 10px;
-}
-.col-3{
-    width: 30%;
-    float: left;
-    padding: 10px;
-    margin: 10px;   
-}
-#html_tag{
-    position: relative;
-}
-#html_tag::before{
-    position: absolute;
-    content: '<html>';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    color: #515152;
-    font-family: 'Yellowtail', cursive;
-    font-size: 20px;
-    font-weight: 400;
-}
-#body_tag{
-    position: relative;
-}
-#body_tag::before{
-    position: absolute;
-    content: '<body>';
-    top: 0;
-    left: 10px;
-    width: 100%;
-    height: 20px;
-    line-height: 20px;
-    color: #515152;
-    font-family: 'Yellowtail', cursive;
-    font-size: 20px;
-    font-weight: 400;
-
-}
-#heading_tag{
-    position: absolute;
-    width: 100%;
+section{
     height: 500px;
 }
-#heading_tag h1{
-    position: absolute;
-    top: 50%;
+.col-6{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 5%;
 }
-#heading_tag h1::before{
-    position: absolute;
-    content: '<h1>';
-    top: 0;
-    left: 10px;
+/* banner part */
+.heading_text{
+    position: relative;
+    top: 115px;
+    left: 0;
+}
+.col-6 .heading_text h1{
+    font-weight: 700;
+    font-size: 48px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.col-6 img{
     width: 100%;
-    height: 20px;
-    line-height: 20px;
-    color: #515152;
-    font-family: 'Yellowtail', cursive;
-    font-size: 20px;
+}
+.font_heading_color{
+    color: #363857;
+}
+.font_highlight{
+    color: #f68266;
+}
+#banner_part{
+    margin: 40px;
+}
+.col-6 a{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-image: linear-gradient(to left bottom, #f68266, #f8766e, #f86a78, #f66084, #f05792);
+    transition: all 0.4s ease-out;
+}
+.col-6 a:hover{
+    background-image: linear-gradient(to right top, #f68266, #f8766e, #f86a78, #f66084, #f05792);
+}
+#banner_part p{
+    margin-bottom: 30px;
+    font-size: 14px;
     font-weight: 400;
 }
+/* about part */
+#abount_part{
+    margin: 40px;
+}
+.about_heading h1{
+    margin-top: 50px;
+    font-size: 48px;
+    color: #363857;
+    text-transform: uppercase;
+}
+.about_heading p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 10px 20px 0;
+    line-height: 25px;
+    margin: 20px 0;
+}
+/* work exprience */
